@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,8 +21,7 @@
                     @csrf
                     <div class="mb-3">
                         <label class="form-label">Masukkan angka (pisahkan dengan koma)</label>
-                        <input type="text" name="angka" class="form-control" placeholder="Contoh: 5,3,8,1,4"
-                            required>
+                        <input type="text" name="angka" class="form-control" placeholder="Contoh: 5,3,8,1,4" required>
                     </div>
                     <button type="submit" class="btn btn-success">Urutkan</button>
                 </form>
