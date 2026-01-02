@@ -13,8 +13,8 @@ Route::post('/selection-sort/objek', [SelectionSortController::class, 'sortObjek
 
 use App\Http\Controllers\InsertionSortController;
 Route::get('/insertion-sort', [InsertionSortController::class, 'index']);
-Route::post('/insertion-sort/angka', [InsertionSortController::class, 'sortAngka']);
-Route::post('/insertion-sort/objek', [InsertionSortController::class, 'sortObjek']);
+# Route::post('/insertion-sort/angka', [InsertionSortController::class, 'sortAngka']);
+# Route::post('/insertion-sort/objek', [InsertionSortController::class, 'sortObjek']);
 
 use App\Http\Controllers\MergeSortController;
 Route::get('/merge-sort', [MergeSortController::class, 'index']);
